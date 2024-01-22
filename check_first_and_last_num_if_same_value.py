@@ -18,14 +18,24 @@ numbers_y = [75, 65, 35, 75, 30]
 # numbers_y = [75, 65, 35, 75, 30]
 # result is False
 
-number_list = (numbers_x, numbers_y)
+# First list of given numbers
+print('Given list:', numbers_x)
 
-print('Given list: ', number_list)
-
-first_num = number_list[0]
-last_num = number_list[-1]
+first_num = numbers_x[0]
+last_num = numbers_x[-1]
     
 if first_num == last_num:
-    print("result is", True)
+    print("The result is", True)
+else:
+    print("The result is", False)
+
+# Second list of given numbers
+print('Given list:', numbers_y)
+
+first_num = numbers_y[0]
+last_num = numbers_y[-1]
+    
+if first_num == last_num:
+    print("The result is", True)
 else:
     print("The result is", False)
